@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 import Reuniao from './../../public/images/reuniao1.jpeg'
-import Compartilhada from './../../public/images/estacao2.jpeg'
+import Compartilhada from './../../public/images/estacao2.png'
 import BemEstar from './../../public/images/bemestar.jpeg'
 import Privativa from './../../public/images/privativa.jpeg'
 import Ripada from './../../public/images/ripada.jpeg'
