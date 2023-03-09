@@ -5,7 +5,7 @@ import Reuniao from './../../public/images/reuniao1.jpeg'
 
 export default function Products() {
   let salas = [
-    {name: 'Sala de Reunião', image: {Reuniao}},
+    {name: 'Sala de Reunião', image: Reuniao},
     {name: 'Sala de Compartilhada', image: './../../public/images/estacao2.png'},
     {name: 'Sala de Atendimento Bem-Estar', image: './../../public/images/bemestar.jpeg'},
     {name: 'Sala de Atendimento Privativa', image: './../../public/images/privativa.jpeg'},
