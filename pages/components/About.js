@@ -8,12 +8,12 @@ export default function About() {
             <span className='about-text'>
                 Localizado em uma das áreas mais nobres de Campos dos Goytacazes, contamos com várias salas e serviços para você empreendedor. Tenha sua sala sem se preocupar com contas de manutenção e capital de investimentos. Só entrar e trabalhar!
                 <br /><br />
-                <strong>♦</strong> Wi-FI<br />
-                <strong>♦</strong> Café / Água<br />
-                <strong>♦</strong> Luz<br />
-                <strong>♦</strong> IPTU<br />
-                <strong>♦</strong> Manutenção / Limpeza<br />
-                <strong>♦</strong> Recepção
+                <strong>»</strong> Wi-FI<br />
+                <strong>»</strong> Café / Água<br />
+                <strong>»</strong> Luz<br />
+                <strong>»</strong> IPTU<br />
+                <strong>»</strong> Manutenção / Limpeza<br />
+                <strong>»</strong> Recepção
             </span>
             <div className='about-image'>
             </div>
