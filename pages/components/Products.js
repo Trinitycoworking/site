@@ -3,11 +3,11 @@ import React from 'react'
 
 export default function Products() {
   let salas = [
-    {name: 'Sala de Reunião', image: '/../public/images/reuniao1.jpeg'},
-    {name: 'Sala de Compartilhada', image: '/images/estacao2.png'},
-    {name: 'Sala de Atendimento Bem-Estar', image: '/images/bemestar.jpeg'},
-    {name: 'Sala de Atendimento Privativa', image: '/images/privativa.jpeg'},
-    {name: 'Sala de Atendimento Porta Ripada', image: '/images/ripada.jpeg'},
+    {name: 'Sala de Reunião', image: './../../public/images/reuniao1.jpeg'},
+    {name: 'Sala de Compartilhada', image: './../../public/images/estacao2.png'},
+    {name: 'Sala de Atendimento Bem-Estar', image: './../../public/images/bemestar.jpeg'},
+    {name: 'Sala de Atendimento Privativa', image: './../../public/images/privativa.jpeg'},
+    {name: 'Sala de Atendimento Porta Ripada', image: './../../public/images/ripada.jpeg'},
   ]
 
   return (
