@@ -1,0 +1,38 @@
+$white-color: #f8f8f9
+$green: #00a188
+$light-gray: #b4b4b4
+$dark-gray: #404040
+$darkness-gray: #3e3e3e
+    
+.navbar
+    position: fixed
+    width: 100%
+    top: 0
+    background-color: $dark-gray
+    font-size: 1rem
+    z-index: 99
+    .container-fluid
+        max-width: 1920px
+        .navbar-brand
+
+.navbar-collapse
+    .navbar-nav
+        margin-right: 1em
+        .nav-item
+            .nav-link
+                color: #fff
+            a.active
+                font-weight: 700
+                color: $green
+                text-decoration: underline
+                text-underline-offset: 10px
+
+.navbar-toggler
+    background-color: #fff
+    color: #fff
+
+@media screen and ('min-width: 992px')
+    .navbar-collapse
+        width: 100%
+        display: flex
+        justify-content: flex-end
