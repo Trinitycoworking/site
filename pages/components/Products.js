@@ -2,14 +2,18 @@ import Image from 'next/image'
 import React from 'react'
 
 import Reuniao from './../../public/images/reuniao1.jpeg'
+import Compartilhada from './../../public/images/estacao2.jpeg'
+import BemEstar from './../../public/images/bemestar.jpeg'
+import Privativa from './../../public/images/privativa.jpeg'
+import Ripada from './../../public/images/ripada.jpeg'
 
 export default function Products() {
   let salas = [
     {name: 'Sala de Reunião', image: Reuniao},
-    {name: 'Sala de Compartilhada', image: './../../public/images/estacao2.png'},
-    {name: 'Sala de Atendimento Bem-Estar', image: './../../public/images/bemestar.jpeg'},
-    {name: 'Sala de Atendimento Privativa', image: './../../public/images/privativa.jpeg'},
-    {name: 'Sala de Atendimento Porta Ripada', image: './../../public/images/ripada.jpeg'},
+    {name: 'Sala de Compartilhada', image: Compartilhada},
+    {name: 'Sala de Atendimento Bem-Estar', image: BemEstar},
+    {name: 'Sala de Atendimento Privativa', image: Privativa},
+    {name: 'Sala de Atendimento Porta Ripada', image: Ripada},
   ]
 
   return (
