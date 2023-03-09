@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Products() {
   let salas = [
-    {name: 'Sala de Reunião', image: '/images/reuniao1.jpeg'},
+    {name: 'Sala de Reunião', image: '/../public/images/reuniao1.jpeg'},
     {name: 'Sala de Compartilhada', image: '/images/estacao2.png'},
     {name: 'Sala de Atendimento Bem-Estar', image: '/images/bemestar.jpeg'},
     {name: 'Sala de Atendimento Privativa', image: '/images/privativa.jpeg'},
