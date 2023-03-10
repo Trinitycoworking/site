@@ -20,7 +20,7 @@ export default function Navbar() {
     }, 2000)
 
   return (
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <Image 
@@ -46,7 +46,7 @@ export default function Navbar() {
                         <a class="nav-link" href="#products">Salas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Contato</a>
+                        <a class="nav-link" href="#footer">Contato</a>
                     </li>
                 </ul>
             </div>

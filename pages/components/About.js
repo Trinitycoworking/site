@@ -6,7 +6,7 @@ export default function About() {
         <h5>Nosso escritório</h5>
         <div className='about-wrapper'>
             <span className='about-text'>
-                Localizado em uma das áreas mais nobres de Campos dos Goytacazes, contamos com várias salas e serviços para você empreendedor. Tenha sua sala sem se preocupar com contas de manutenção e capital de investimentos. Só entrar e trabalhar!
+                Localizado em uma das <strong>áreas mais nobres de Campos dos Goytacazes</strong>, contamos com várias salas e serviços para você empreendedor. Tenha sua sala sem se preocupar com contas de manutenção e capital de investimentos. <strong>Só entrar e trabalhar!</strong>
                 <br /><br />
                 <strong>»</strong> Wi-FI<br />
                 <strong>»</strong> Café / Água<br />

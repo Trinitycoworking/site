@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div id="footer">
         <h5>Contato</h5>
-        <p>Envie uma mensagem ou entre em contato via Whatsapp (22) XXXXX-XXXX</p>
+        <p>Envie uma mensagem ou entre em contato via Whatsapp (22) 99872-7548</p>
 
         <div className='contact_wrapper'>    
             <div className='contact_info'>
