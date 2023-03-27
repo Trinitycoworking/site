@@ -8,6 +8,7 @@ $darkness-gray: #3e3e3e
     display: flex
     justify-content: center
     flex-direction: column
+    align-items: center
     text-align: center
     background-color: $dark-gray
     padding: 2em 0
@@ -19,6 +20,20 @@ $darkness-gray: #3e3e3e
         text-decoration: underline
         text-underline-offset: 10px
         color: $green
+
+    a
+        text-decoration: none
+        background-color: #ee6729
+        width: fit-content
+        padding: 1rem 1rem
+        color: #ffffff
+        border-radius: 20px
+        text-transform: uppercase
+        margin-top: 1rem !important
+        font-weight: 600
+        font-size: 1.3rem
+        margin: 0 1rem
+
 
     .products-wrapper
         width: 100%
@@ -36,7 +51,9 @@ $darkness-gray: #3e3e3e
                 border: 2px solid $green
 
             .product-description
-                color: $dark-gray
+                display: flex
+                flex-direction: column
+                color: #fff
                 font-weight: 700
                 position: absolute
                 border-radius: 20px
@@ -46,7 +63,23 @@ $darkness-gray: #3e3e3e
                 top: 0
                 width: 100%
                 height: 100%
-                background-color: rgba(255, 255, 255, .5)
+                background-color: rgba($green, .8)
+                h2
+                    font-weight: 700
+                    margin-bottom: 2rem
+                    text-transform: uppercase
+                    padding: 0 .5rem
+                h4
+                    text-transform: uppercase
+                    margin-bottom: 1rem
+                    font-weight: 700
+                span
+                    text-align: left
+                    width: 100%
+                    padding-left: 2rem
+                    font-weight: 500
+                    margin: .2rem 0
+                    text-transform: uppercase
             &:hover, &:active, &:focus
                 .product-description
                     display: flex
