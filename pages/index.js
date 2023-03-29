@@ -8,6 +8,7 @@ import Contact from './components/Contact'
 
 import Favicon from './../public/favicon.ico'
 import WhatsappButton from './components/WhatsappButton'
+import CTAone from './components/CTAone'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <main className='main'>
         <Navbar />
         <Header />
+        <CTAone />
         <About />
         <Products />
         <Contact />
