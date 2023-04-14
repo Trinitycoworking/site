@@ -23,7 +23,7 @@ export default function Contact() {
             </div>
 
             <div className='footer-bar'>
-                <p>© 2023 | Todos os direitos reservados <br /> Criação de Sites por <a href='https://dredeco.github.io/portfolio-page/'>André Fernandes.</a></p>
+                <p>© 2023 | Todos os direitos reservados <br /> Criação de Sites por <a href='https://dredeco.github.io/portfolio/'>André Fernandes.</a></p>
             </div>
         </div>
     </div>
