@@ -10,12 +10,12 @@ export default function Contact() {
 
         <div className='contact_wrapper'>    
             <div className='contact_info'>
-                <h2>Informações</h2>
+                <h4>Informações</h4>
                 <FaPhone /><strong>Telefone:</strong><p>(22) 99872-7548</p>
                 <GrMail /><strong>E-mail:</strong><p>trinitycoworking@gmail.com</p>
                 <FaMapMarkerAlt /><strong>Localização:</strong><p>Rua Voluntários da Pátria, nº 514 - Sala 207</p>
                 <FaClock /><strong>Horário de Atendimento:</strong><p>De segunda a sexta, das 9h às 20h</p>
-                <strong>Redes sociais</strong><p><a href='https://facebook.com' target='_blank'><FaFacebook /></a><a href='https://instagram.com' target='_blank'><FaInstagram /></a></p>
+                <strong>Redes sociais</strong><p><a href='https://facebook.com/trinitycoworking' target='_blank'><FaFacebook /></a><a href='https://instagram.com/trinitycoworking' target='_blank'><FaInstagram /></a></p>
             </div>
 
             <div className='contact_map'>

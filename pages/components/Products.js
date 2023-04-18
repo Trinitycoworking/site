@@ -5,16 +5,18 @@ import Reuniao from './../../public/images/reuniao1.jpeg'
 import Compartilhada from './../../public/images/estacao2.png'
 import BemEstar from './../../public/images/bemestar.jpeg'
 import Privativa from './../../public/images/privativa.jpeg'
+import PrivativaPremium from './../../public/images/privativap.jpeg'
 import Ripada from './../../public/images/ripada.jpeg'
 import Link from 'next/link'
 
 export default function Products() {
   let salas = [
     {name: 'Sala de Reunião', image: Reuniao, hora: "R$45,00", pacote: "R$400,00", diaria: "R$270,00", mensal: "Indisponível"},
-    {name: 'Sala de Compartilhada', image: Compartilhada, hora: "Indisponível", pacote: "Indisponível", diaria: "R$45,00", mensal: "R$360,00"},
+    {name: 'Sala Compartilhada', image: Compartilhada, hora: "Indisponível", pacote: "Indisponível", diaria: "R$45,00", mensal: "R$360,00"},
     {name: 'Sala de Atendimento Bem-Estar', image: BemEstar, hora: "R$35,00", pacote: "R$300,00", diaria: "R$190,00", mensal: "R$450,00"},
     {name: 'Sala de Atendimento Privativa', image: Privativa, hora: "R$35,00", pacote: "R$300,00", diaria: "R$190,00", mensal: "R$450,00"},
     {name: 'Sala de Atendimento Porta Ripada', image: Ripada, hora: "R$35,00", pacote: "R$300,00", diaria: "R$190,00", mensal: "R$450,00"},
+    {name: 'Sala de Privativa Premium', image: PrivativaPremium, hora: "R$40,00", pacote: "R$350,00", diaria: "Indisponível", mensal: "Indisponível"},
   ]
 
   return (
@@ -35,6 +37,7 @@ export default function Products() {
               <span>Pacote 10h: {sala.pacote}</span>
               <span>Diária: {sala.diaria}</span>
               <span>Mensal: {sala.mensal}</span>
+              <a href='https://wa.me/5522998727548' target='_blank'>Reserve agora</a>
             </div>
           </div>
         ))}
