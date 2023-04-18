@@ -16,7 +16,7 @@ export default function Products() {
     {name: 'Sala de Atendimento Bem-Estar', image: BemEstar, hora: "R$35,00", pacote: "R$300,00", diaria: "R$190,00", mensal: "R$450,00"},
     {name: 'Sala de Atendimento Privativa', image: Privativa, hora: "R$35,00", pacote: "R$300,00", diaria: "R$190,00", mensal: "R$450,00"},
     {name: 'Sala de Atendimento Porta Ripada', image: Ripada, hora: "R$35,00", pacote: "R$300,00", diaria: "R$190,00", mensal: "R$450,00"},
-    {name: 'Sala de Privativa Premium', image: PrivativaPremium, hora: "R$40,00", pacote: "R$350,00", diaria: "Indisponível", mensal: "Indisponível"},
+    {name: 'Sala Privativa Premium', image: PrivativaPremium, hora: "R$40,00", pacote: "R$350,00", diaria: "Indisponível", mensal: "Indisponível"},
   ]
 
   return (
