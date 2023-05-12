@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Navbar from './../pages/components/Navbar'
-import Hero from './../pages/components/Hero'
-import AboutWork from './../pages/components/AboutWork'
-import About from './../pages/components/About'
-import Products from './../pages/components/Products'
-import Contact from './../pages/components/Contact'
-import CTAOne from './../pages/components/CTAOne'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import AboutWork from './components/AboutWork'
+import About from './components/About'
+import Products from './components/Products'
+import Contact from './components/Contact'
+import CTAOne from './components/CTAOne'
 
 const inter = Inter({ subsets: ['latin'] })
 
