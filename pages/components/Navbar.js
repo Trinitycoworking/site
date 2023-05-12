@@ -1,7 +1,8 @@
-import Image from 'next/image'
-import React, { useEffect } from 'react'
+import React, {useEffect} from 'react'
+import Image from 'next/legacy/image'
+import Link from 'next/link'
 
-import logo from './../../public/images/logo.png'
+import Logo from './../../public/images/logo.png'
 
 export default function Navbar() {
 
@@ -21,34 +22,35 @@ export default function Navbar() {
 
   return (
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+        <div class="container">
+            <Link class="navbar-brand" href="/">
                 <Image 
-                    src={logo}
-                    width={180}
-                    height={60}
+                    className='logo'
+                    src={Logo}
+                    width='180'
+                    height='60'
                 />
-            </a>
+            </Link>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNavAltMarkup" 
+                aria-controls="navbarNavAltMarkup" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+            >
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav" id='navbar-nav'>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#products">Salas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#footer">Contato</a>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <Link class="nav-link active" aria-current="page" href="/">Início</Link>
+                    <Link class="nav-link" href="#about">Sobre</Link>
+                    <Link class="nav-link" href="#products">salas</Link>
+                    <Link class="nav-link" href="#footer">Contato</Link>
+                </div>
             </div>
         </div>
     </nav>

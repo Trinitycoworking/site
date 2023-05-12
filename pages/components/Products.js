@@ -21,28 +21,30 @@ export default function Products() {
 
   return (
     <div id='products' className='products'>
-      <h1>Salas</h1>
-      <div className='products-wrapper'>
-        {salas.map((sala) => (
-          <div className='product-card'>
-            <Image
-              src={sala.image}
-              width={300}
-              height={400}
-            />
-            <div className='product-description'>
-              <h2>{sala.name}</h2>
-              <h4>Valores</h4>
-              <span>Hora: {sala.hora}</span>
-              <span>Pacote 10h: {sala.pacote}</span>
-              <span>Diária: {sala.diaria}</span>
-              <span>Mensal: {sala.mensal}</span>
-              <a href='https://wa.me/5522998727548' target='_blank'>Reserve agora</a>
+      <div className='container'>
+        <h1>Salas</h1>
+        <div className='products-wrapper'>
+          {salas.map((sala) => (
+            <div className='product-card'>
+              <Image
+                src={sala.image}
+                width={300}
+                height={400}
+              />
+              <div className='product-description'>
+                <h2>{sala.name}</h2>
+                <h4>Valores</h4>
+                <span>Hora: {sala.hora}</span>
+                <span>Pacote 10h: {sala.pacote}</span>
+                <span>Diária: {sala.diaria}</span>
+                <span>Mensal: {sala.mensal}</span>
+                <a href='https://wa.me/5522998727548' target='_blank'>Reserve agora</a>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+        <Link href='https://trinitycoworking.github.io/Trinity_Horarios/' target='_blank' className='cta'><p>Consulte aqui a disponibilidade das salas</p></Link>
       </div>
-      <Link href='https://trinitycoworking.github.io/Trinity_Horarios/' target='_blank'>Consulte aqui a disponibilidade das salas</Link>
     </div>
   )
 }

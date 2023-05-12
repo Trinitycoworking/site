@@ -5,31 +5,25 @@ $dark-gray: #404040
 $darkness-gray: #3e3e3e
     
 .navbar
-    position: fixed
+    position: fixed !important
     width: 100%
     top: 0
-    background-color: $dark-gray
-    font-size: 1rem
+    background-color: #404040
     z-index: 99
-    .container-fluid
-        max-width: 1920px
+    .container
         .navbar-brand
 
-.navbar-collapse
-    .navbar-nav
-        margin-right: 1em
-        .nav-item
-            .nav-link
-                color: #fff
-            a.active
-                font-weight: 700
-                color: $green
-                text-decoration: underline
-                text-underline-offset: 10px
+        .navbar-toggler
+            span
+                font-size: 2.5rem
 
-@media screen and ('min-width: 992px')
-    .navbar-collapse
-        width: 100%
-        display: flex
-        justify-content: flex-end
-        font-size: 1.3rem
+        .collapse
+            .navbar-nav
+                margin-right: 1em
+                .nav-link
+                    font-size: 1.6rem
+                    color: #fff
+                    text-transform: uppercase
+                a.active
+                    font-weight: 700
+                    color: $green

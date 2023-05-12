@@ -3,6 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <div id='about' className='about'>
+      <div className='container'>
         <h5>Nosso escritório</h5>
         <div className='about-wrapper'>
             <span className='about-text'>
@@ -18,8 +19,9 @@ export default function About() {
                 <strong>»</strong> Recepção
             </span>
             <div className='about-image'>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
   )
 }
