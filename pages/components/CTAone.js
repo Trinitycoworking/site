@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function CTAone() {
+export default function CTAOne() {
   return (
     <div className='CTAone'>
         <div className='container'>
