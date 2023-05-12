@@ -4,10 +4,10 @@ import { Inter } from 'next/font/google'
 import Navbar from '@/pages/components/Navbar'
 import Hero from '@/pages/components/Hero'
 import AboutWork from '@/pages/components/AboutWork'
-import CTAOne from '@/pages/components/CTAOne'
 import About from '@/pages/components/About'
 import Products from '@/pages/components/Products'
 import Contact from '@/pages/components/Contact'
+import CTAOne from './components/CTAone'
 
 const inter = Inter({ subsets: ['latin'] })
 
