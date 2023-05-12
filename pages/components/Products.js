@@ -11,12 +11,12 @@ import Link from 'next/link'
 
 export default function Products() {
   let salas = [
-    {name: 'Sala de Reunião', image: Reuniao, hora: "R$45,00", pacote: "R$400,00", diaria: "R$270,00", mensal: "Indisponível"},
+    {name: 'Sala de Reunião', image: Reuniao, hora: "R$55,00", pacote: "R$500,00", diaria: "R$290,00", mensal: "Indisponível"},
     {name: 'Sala Compartilhada', image: Compartilhada, hora: "Indisponível", pacote: "Indisponível", diaria: "R$45,00", mensal: "R$360,00"},
     {name: 'Sala de Atendimento Bem-Estar', image: BemEstar, hora: "R$35,00", pacote: "R$300,00", diaria: "R$190,00", mensal: "R$450,00"},
     {name: 'Sala de Atendimento Privativa', image: Privativa, hora: "R$35,00", pacote: "R$300,00", diaria: "R$190,00", mensal: "R$450,00"},
     {name: 'Sala de Atendimento Porta Ripada', image: Ripada, hora: "R$35,00", pacote: "R$300,00", diaria: "R$190,00", mensal: "R$450,00"},
-    {name: 'Sala Privativa Premium', image: PrivativaPremium, hora: "R$40,00", pacote: "R$350,00", diaria: "Indisponível", mensal: "Indisponível"},
+    {name: 'Sala Privativa Premium', image: PrivativaPremium, hora: "R$45,00", pacote: "R$400,00", diaria: "R$250,00", mensal: "Indisponível"},
   ]
 
   return (
