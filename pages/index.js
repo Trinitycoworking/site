@@ -7,7 +7,7 @@ import AboutWork from './components/AboutWork'
 import About from './components/About'
 import Products from './components/Products'
 import Contact from './components/Contact'
-import CTAOne from './components/CTAOne'
+import CTAOne from './components/CallToAction'
 
 const inter = Inter({ subsets: ['latin'] })
 
